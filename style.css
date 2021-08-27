@@ -1,3 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEE;
+}
+
 #root {
-  color: red;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.episode {
+    background-color: #fff;
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #111;
+}
+
+.title {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 25px 0px;
+    background-color: #EEE;
+}
+
+.nav {
+    position: relative;
+    background-color: #555;
+    height: 100px;
+}
+
+.search {
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
 }
